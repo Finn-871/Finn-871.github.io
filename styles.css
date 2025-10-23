@@ -10,36 +10,74 @@ html, body {
   background: linear-gradient(135deg, #1e40af, #2563eb 70%, #1e40af);
   color: #e0e0e0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-/* Intro section */
-.intro {
-  text-align: center;
-  margin-bottom: 60px;
-  flex-grow: 1;
-}
-
-.intro h1 {
-  font-size: 3.5rem;
-  color: #bfdbfe;
-  margin-bottom: 20px;
-  text-shadow: 0 2px 5px rgba(0,0,0,0.6);
-}
-
-.intro p {
-  font-size: 1.15rem;
-  color: #dbeafe;
+  padding: 40px 15px;
   max-width: 700px;
   margin: 0 auto;
+  text-align: center;
 }
 
+/* All content inside .intro */
+.intro {
+  margin-bottom: 40px;
+}
+
+/* Headings inside intro */
+.intro h1 {
+  font-size: 2.8rem;
+  color: #bfdbfe;
+  margin-bottom: 16px;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+  font-weight: 700;
+}
+
+/* Paragraphs inside intro */
+.intro p {
+  font-size: 1rem;
+  color: #dbeafe;
+  max-width: 650px;
+  margin: 0 auto 18px;
+  line-height: 1.5;
+}
+
+/* Buttons inside intro */
+.intro a.btn {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(59, 130, 246, 0.7);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 12px 10px 0 10px;
+}
+
+.intro a.btn:hover,
+.intro a.btn:focus {
+  background-color: #2563eb;
+  transform: scale(1.05);
+  outline: none;
+  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.85);
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 2.2rem;
+  }
+  .intro p {
+    font-size: 0.9rem;
+  }
+  .intro a.btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.6rem;
+  }
+}
