@@ -1,4 +1,4 @@
-/* Base reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -33,17 +33,17 @@ body {
 }
 
 .intro h1 {
-  font-size: 1.8rem;  /* smaller */
-  margin-bottom: 12px;  /* tighter */
+  font-size: 1.8rem; 
+  margin-bottom: 12px;  
   color: black;
   text-shadow: 0 2px 4px rgba(0,0,0,0.6);
   font-weight: 700;
 }
 
 .intro p {
-  font-size: 0.85rem;  /* smaller */
+  font-size: 0.85rem; 
   color: black;
-  margin-bottom: 10px;  /* tighter */
+  margin-bottom: 10px;  
   line-height: 1.4;
 }
 .intro h2 {
@@ -55,7 +55,7 @@ body {
   background-color: #3b82f6;
   color: black;
   padding: 0.55rem 1.6rem;
-  font-size: 0.9rem;  /* smaller */
+  font-size: 0.9rem;  
   border-radius: 25px;
   text-decoration: none;
   box-shadow: 0 5px 12px rgba(59, 130, 246, 0.6);
@@ -71,7 +71,7 @@ body {
   box-shadow: 0 7px 18px rgba(37, 99, 235, 0.8);
 }
 
-/* Responsive */
+
 @media (max-width: 480px) {
   .intro h1 {
     font-size: 1.4rem;
