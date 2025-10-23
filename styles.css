@@ -43,29 +43,3 @@ body {
   margin: 0 auto;
 }
 
-/* About section */
-.about p {
-  font-size: 1.15rem;
-  color: #cbd5e1;
-  margin-bottom: 22px;
-  max-width: 700px;
-  line-height: 1.6;
-}
-
-/* Links section */
-.links {
-  margin-top: 60px;
-  text-align: center;
-  padding-bottom: 60px;
-}
-
-.links a.btn {
-  display: inline-block;
-  background-color: #3b82f6;
-  color: white;
-  padding: 0.85rem 2.5rem;
-  font-size: 1.15rem;
-  border-radius: 35px;
-  text-decoration: none;
-  box-shadow: 0 7px 15px rgba(59, 130, 246, 0.7);
-  transition: background-color
