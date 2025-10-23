@@ -35,14 +35,14 @@ body {
 .intro h1 {
   font-size: 1.8rem;  /* smaller */
   margin-bottom: 12px;  /* tighter */
-  color: #bfdbfe;
+  color: black;
   text-shadow: 0 2px 4px rgba(0,0,0,0.6);
   font-weight: 700;
 }
 
 .intro p {
   font-size: 0.85rem;  /* smaller */
-  color: #dbeafe;
+  color: black;
   margin-bottom: 10px;  /* tighter */
   line-height: 1.4;
 }
@@ -50,7 +50,7 @@ body {
 .intro a {
   display: inline-block;
   background-color: #3b82f6;
-  color: white;
+  color: black;
   padding: 0.55rem 1.6rem;
   font-size: 0.9rem;  /* smaller */
   border-radius: 25px;
